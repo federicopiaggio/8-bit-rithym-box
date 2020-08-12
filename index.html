@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Drum Kit 8bit</title>
+  </head>
+  <body>
+    <h1>8-BIT RITHYM BOX</h1>
+
+    <h4>PLAY THE KEYS AND MAKE FUN CHIPTUNES MELODIES!</h4>
+
+    <div class="key-content">
+      <div class="key" data-key="81"><kbd>Q</kbd><span>KICK</span></div>
+      <div class="key" data-key="87"><kbd>W</kbd><span>SLAM</span></div>
+      <div class="key" data-key="69"><kbd>E</kbd><span>FIREBALL</span></div>
+      <div class="key" data-key="82"><kbd>R</kbd><span>EXPLOSION</span></div>
+    </div>
+
+    <div class="key-content">
+      <div class="key" data-key="85"><kbd>U</kbd><span>CLICK</span></div>
+      <div class="key" data-key="73"><kbd>I</kbd><span>STARS</span></div>
+      <div class="key" data-key="79"><kbd>O</kbd><span>POW</span></div>
+      <div class="key" data-key="80"><kbd>P</kbd><span>PEW</span></div>
+    </div>
+
+    <audio data-key="81" src="./audio/kick.wav"></audio>
+    <audio data-key="87" src="./audio/slam.mp3"></audio>
+    <audio data-key="69" src="./audio/fireball.mp3"></audio>
+    <audio data-key="82" src="./audio/explosion.wav"></audio>
+
+    <audio data-key="85" src="./audio/click.mp3"></audio>
+    <audio data-key="73" src="./audio/stars.wav"></audio>
+    <audio data-key="79" src="./audio/pew.mp3"></audio>
+    <audio data-key="80" src="./audio/pow.mp3"></audio>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
